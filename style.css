@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none; 
+    font-family:sans-serif; 
+}
+a, p, h1, h3, img, ul{
+    margin:0px;
+    padding:0px;
+}
+body{
+    margin:0;
+    padding:0; 
+}
+.header{
+    width:100%;
+    height: 100vh;
+    background-image: url("art-image.png");           
+    background-size: cover;
+    background-position: center;
+     
+}
+.navbar a{
+    color:white;
+}
+.navbar{ 
+    align-items: center;
+    margin-left:200px; 
+    margin-right:200px;
+    padding-top:30px;
+}
+.navbar-a, .navbar-nav-ul{
+    display:inline;
+} 
+nav ul{
+    float:right; 
+}
+nav ul li{
+    display:inline-block;
+    margin:0px 30px; 
+}
+.banner{
+    margin:0;
+    position:absolute;
+    text-align: center;
+    line-height: 1.5;
+    top:50%;
+    left:50%;
+    -ms-transform: translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+    color: white;
+}
+#logo, .logod{
+    font-size:22px;
+    font-style: bold;
+}
+.banner h1{
+    font-size:50px; 
+    text-shadow: 0px 6px rgba(0, 0, 0, 0.5);
+}
+.banner p{
+    font-size:26px;
+}
+.banner a{
+    font-size:18px;
+    display: inline-block;
+    padding:10px 50px;
+    background-color: aqua;
+    color:white;
+}
+.main{
+    margin:auto;  
+    padding-top:100px;
+    padding-bottom:100px;
+    width:80%;
+}
+.in{
+    width:50%;
+    float:left; 
+    height: 550px;
+    vertical-align: middle; 
+} 
+.in span{
+    color:#ff0161;
+}
+.in .small{
+    font-size: 16px;
+    line-height: 1.2;
+}
+.clearfix::after {
+    content: " "; 
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
+ .logod{
+     margin:0px;
+     margin-left:150px;
+     color:black;
+ }
+ .ins{
+     width:calc(100%/3);
+     float:left;
+ }
+ .footer-section-1{
+     background-color: #fbfafc;
+     border:0.2px solid #e7e8ea;  
+     height:auto; 
+ }   
+ .main h3{
+    color:#33325f;
+    font-size:22px;
+    text-transform: uppercase; 
+ }
+ .main p{
+     color:#2b2b2b;
+     font-size: 22px;
+     line-height: 1.5;
+ }
+.main a{
+    color:#ff0161;
+}
+.footer-section-2{
+    margin:0px;
+    color:#999ea8;
+    background-color:#e7e8ea;
+    padding:30px 50px; 
+}
+.ins{ 
+    margin-top:40px;
+}
+.ins:nth-child(2){
+    margin:0;
+}
+.ins:nth-child(3){
+    margin:0px;
+    margin-top:20px;
+    text-align: center; 
+}
+.main p{
+    padding:10px;
+    padding-left:0px;
+}
+hr{
+    border-style:solid;
+    background-color: #2b2b2b;
+    border-width:1px;
+}
+ul.checkmark li{
+    display: inline-block;
+}   
