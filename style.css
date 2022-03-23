@@ -4,7 +4,6 @@
     font-family:'Source Sans Pro', sans-serif;
     list-style-type: none;   
 } 
-
 .responsive {
     width: 75%;  
 }
@@ -21,12 +20,9 @@ a{
 .navbar a{
     color: white;  
 }
-.navbar ul{      
-/*  padding-left:550px;*/
-     
+.navbar ul{            
     float: right;    
 }
-
 .navbar ul li{ 
     display: inline-block;  
     margin-left:50px; 
