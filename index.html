@@ -9,65 +9,63 @@
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
+        <header class="header">
+            <nav class="navbar"> 
+                <a href="index.html" id="logo">LOGO</a>
+                <ul id="menu">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">WHAT WE DO</a></li>
+                    <li><a href="#">TEAM</a></li>
+                </ul>
+            </nav>
+        </header>
         <section class="hero">
-            <header class="header">
-                <nav class="navbar"> 
-                    <a href="index.html" id="logo">LOGO</a>
-                    <ul>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">WHAT WE DO</a></li>
-                        <li><a href="#">TEAM</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <section class="banner">
+            <div class="banner">
                 <h1>SECURE DATA MANAGEMENT</h1>
                 <p>Clarity from Complexity</p>
                 <a href="#">WHAT WE DO</a>
-            </section>
+            </div>
         </section>
         <main class="main">
-            <section class="wrapupdiv clearfix">
-                <div class="in-div">
-                    <p class="paraheading">Lorem Ipsum is simply dummy</p>
+            <section class="row1 clearfix">
+                <div class="col">
+                    <h2 class="paraheading">Lorem Ipsum is simply dummy</h2>
                     <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                     <a href="#">CTA Link &#8594;</a>
                 </div>
-                <div class="in-div">
-                    <img src="group-text.png" alt="group-text">
+                <div class="col">
+                    <img class="responsive" src="group-text.png" alt="group-text">
                 </div>
             </section>
-            <section class="wrapupdiv clearfix">
-                <div class="in-div">
-                    <img src="i-mac-2-up-left.png" alt="group-text">
+            <section class="row2 clearfix">
+                <div class="col">
+                    <img class="responsive" src="i-mac-2-up-left.png" alt="group-text">
                 </div>
-                <div class="in-div content">
-                    <p class="paraheading">Lorem Ipsum is simply dummy</p>
+                <div class="col content">
+                    <h2 class="paraheading">Lorem Ipsum is simply dummy</h2>
                     <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <hr class="hr">
-                    <img id="shape" src="shape.png" alt="shape">
-                    <p class="para little-para"><span>Lorem Ipsum is simply dummy text</span> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                     <img id="shape" src="shape.png" alt="shape">
+                    <p class="para smallpara"><strong id="strong">Lorem Ipsum is simply dummy text</strong> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                 </div>
             </section>
-            <section class="wrapupdiv clearfix">
-                <div class="in-div content">
-                    <p class="paraheading">Lorem Ipsum is simply dummy</p>
+            <section class="row3 clearfix">
+                <div class="col content">
+                    <h2 class="paraheading">Lorem Ipsum is simply dummy</h2>
                     <p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                     <ul class="checkmark">
                         <li>Feature Name</li>
                         <li>Feature Name</li>
-                    </ul>
-                    <ul class="checkmark">
-                        <li>Feature Name</li>
                         <li>Feature Name</li>
                     </ul>
                     <ul class="checkmark">
+                        <li>Feature Name</li>
                         <li>Feature Name</li>
                         <li>Feature Name</li>
                     </ul>
                 </div>
-                <div class="in-div">
-                    <img src="apple-product.png" alt="group-text">
+                <div class="col">
+                    <img class="responsive" src="apple-product.png" alt="group-text">
                 </div>
             </section>
         </main>
